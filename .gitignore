@@ -1,0 +1,9 @@
+node_modules
+package-lock.json
+package.json
+styles/_custom.scss
+styles/fontawsome.css.map
+styles/fontawsome.scss
+styles/style.css.map
+styles/style.scss
+index.js

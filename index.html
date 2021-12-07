@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name='description' content='Sam Schoenwald web portfolio'>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/fontawsome.css">
+    <title>
+      Sam Schoenwald
+    </title>
+  </head>
+  <body class="body" id='page-top'>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top bg-dark navbar-dark text-uppercase">
+      <div class="container">
+        <ul>
+          <li>
+            <a href="#page-top" class="navbar-brand">Sam Schoenwald</a>
+          </li>
+          <li>
+            <a href="mailto:schoenwald343@gmail.com" class='link'>Email</a>
+          </li>
+          <li class="social-buttons">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/Sibelius343"
+              class="btn btn-outline-light btn-social"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.linkedin.com/in/samuel-schoenwald/"
+              class="btn btn-outline-light btn-social"
+            >
+                <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+        </ul>
+
+        <button class="navbar-toggler" type="button"
+        data-bs-toggle="collapse" data-bs-target="#navMenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navMenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#resume" class="nav-link">Resume</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Showcase -->
+    <section class="masthead pt-5 text-light text-center">
+      <div class="container">
+        <div>
+          <img class='img-fluid w-25 rounded-circle' src='./assets/images/sam-portrait.jpeg' />
+        </div>
+      </div>
+      <div class="masthead-text container-fluid mt-3 p-2">
+        <h1>Sam Schoenwald</h1>
+        <p class="lead">
+          Fullstack Software Engineer
+          <br />
+          Minneapolis, MN
+        </p>
+      </div>
+    </section>
+
+    <!-- About -->
+
+    <section class="bg-secondary text-light p-5 text-center" id="about">
+      <div class="container">
+        <h3 class="mb-3">About</h3>
+        <p class="lead">Disciplined, diligent, collaborative classical 
+          musician starting a career in software development. Educated in 
+          several programming languages and related technologies through 
+          online coursework and self-learning. Recently developed web 
+          applications with a React frontend and Node.js backend.</p>
+      </div>
+    </section>
+
+    <!-- Portfolio Boxes -->
+    <section class="p-5" id="projects">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="mb-3">
+                <img src="./assets/images/masterclass-thumbnail.png" class="card-img-top" />
+              </div>
+              <div class="card-body text-center">
+                <h3 class="card-title mb-3">StudioClass</h3>
+                <p class="card-text">
+                  App to allow musicians to share music they are working on
+                  and receive feedback.
+                </p>
+                <div class="project-buttons">
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://github.com/Sibelius343/studioclass"
+                    class="btn btn-primary btn-project"
+                  >
+                      Code
+                  </a>
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.studioclass.app"
+                    class="btn btn-primary btn-project"
+                  >
+                    Site
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="mb-3">
+                <img src="./assets/images/rate-repository-thumbnail.png" class="card-img-top" />
+              </div>
+              <div class="card-body text-center">
+                <h3 class="card-title mb-3">Rate Repository App</h3>
+                <p class="card-text">
+                  Created a mobile front end in React Native for rating GitHub 
+                  repositories.
+                </p>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/Sibelius343/rate-repository-app"
+                  class="btn btn-primary btn-project"
+                >
+                  Code
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="mb-3">
+                <img src="./assets/images/patientor-thumbnail.png" class="card-img-top" />
+              </div>
+              <div class="card-body text-center">
+                <h3 class="card-title mb-3">Patientor</h3>
+                <p class="card-text">
+                  Created backend and patient details page for front end.
+                </p>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/Sibelius343/FullstackOpen/tree/main/part9"
+                  class="btn btn-primary btn-project"
+                >
+                  Code
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="mb-3">
+                <img src="./assets/images/library-thumbnail.png" class="card-img-top" />
+              </div>
+              <div class="card-body text-center">
+                <h3 class="card-title mb-3">Library</h3>
+                <p class="card-text">
+                  Library app that allows users to add books, edit author 
+                  info, and filter by genre. Uses GraphQl.
+                </p>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/Sibelius343/FullstackOpen/tree/main/part8"
+                  class="btn btn-primary btn-project"
+                >
+                  Code
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="mb-3">
+                <img src="./assets/images/bloglist-thumbnail.png" class="card-img-top" />
+              </div>
+              <div class="card-body text-center">
+                <h3 class="card-title mb-3">Bloglist</h3>
+                <p class="card-text">
+                  App for sharing, commenting on, and liking blogs. State 
+                  management through React Redux.
+                </p>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/Sibelius343/FullstackOpen/tree/main/part7"
+                  class="btn btn-primary btn-project"
+                >
+                  Code
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="mb-3">
+                <img src="./assets/images/phonebook-thumbnail.png" class="card-img-top" />
+              </div>
+              <div class="card-body text-center">
+                <h3 class="card-title mb-3">Phonebook</h3>
+                <p class="card-text">
+                  Phonebook app with REST api deployed to Heroku.
+                </p>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/Sibelius343/FullstackOpen/tree/main/part3"
+                  class="btn btn-primary btn-project"
+                >
+                  Code
+                </a>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://fierce-tor-86707.herokuapp.com/"
+                  class="btn btn-primary btn-project"
+                >
+                  Site
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section class="bg-primary text-light p-5 text-center" id="resume">
+      <div class="container">
+        <h3 class="mb-3">Resume</h3>
+        <div class="row">
+          <div class="col-md-4 h4">
+            Technical Skills:
+          </div>
+          <div class="col-md-8">
+            <ul>
+              <li class="resume-item">
+                <span class="resume-item-lead">Developed web applications using:</span> 
+                Javascript, Typescript, React, Redux, HTML, CSS, Node.js, 
+                Express, REST, GraphQL, MongoDB, Jest, Cypress, git
+              </li>
+              <li class="resume-item">
+                <span class="resume-item-lead">Additional experience in:</span> 
+                Java, Python
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 h4">
+            Additional Skills:
+          </div>
+          <div class="col-md-8">
+            <ul>
+              <li class="resume-item"> 
+                VS Code, MacOS, Windows, GitHub, Intellij IDEA, 
+                Netbeans, MS Office Suite, Google Office Suite, Zoom, Slack,
+                computer hardware 
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 h4">
+            Education (Degrees):
+          </div>
+          <div class="col-md-8">
+            <ul>
+              <li class="resume-item">
+                <span class="resume-item-lead">Master of Music,</span> 
+                San Francisco Conservatory of Music, 2014 - 2016
+              </li>
+              <li class="resume-item">
+                <span class="resume-item-lead">Bachelor of Music,</span> 
+                University of Minnesota, 2010 - 2014
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 h4">
+            Further Education:
+          </div>
+          <div class="col-md-8">
+            <ul>
+              <li class="resume-item">
+                <a
+                  class="course-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://fullstackopen.com/en/"
+                >
+                  Full Stack open 2021,
+                </a>
+                University of Helsinki online course, 2021
+              </li>
+              <li class="resume-item">
+                <a
+                  class="course-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.coursera.org/learn/algorithms-part1/home/welcome"
+                >
+                  Algorithms Parts I and II,
+                </a>
+                Coursera (by Robert Sedgewick and Kevin Wayne, 
+                Princeton University), 2020
+              </li>
+              <li class="resume-item">
+                <a
+                  class="course-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://cs50.harvard.edu/x/2021/"
+                >
+                CS50x,
+                </a> 
+                Harvard OpenCourseWare, 2020
+              </li>
+              <li class="resume-item">
+                <a
+                  class="course-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://java-programming.mooc.fi/"
+                >
+                Java Programming II,
+                </a> 
+                University of Helsinki MOOC (massive open online course), 2020
+              </li>
+              <li class="resume-item">
+                <a
+                  class="course-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://java-programming.mooc.fi/"
+                >
+                Java Programming I,
+                </a> 
+                University of Helsinki MOOC (massive open online course), 2019
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 h4">
+            Work History:
+          </div>
+          <div class="col-md-8">
+            <ul>
+              <li class="resume-item">
+                <span class="resume-item-lead">Freelance Violin Performer
+                  and Teacher,
+                </span>
+                2016 - present
+                <ul class="work-details">
+                  <li>
+                    Lincoln Center Stage Violinist, RWS Entertainment, 2019
+                    <ul class="work-details-add">
+                      <li>
+                        Member of a piano quintet (string quartet and piano) 
+                        aboard a Holland America cruise ship touring Asian 
+                        countries
+                      </li>
+                      <li>
+                        Performed 3 times per day, 6 days per week, for 4 months
+                      </li>
+                      <li>
+                        Led group presentations for audiences about the 
+                        music to be performed
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    Violinist in a wide variety of American regional 
+                    ensembles and national festival orchestras 
+                    (National Repertory Orchestra, Atlantic Music Festival, 
+                    Mendocino Music Festival, FM Symphony, FM Opera, 
+                    Arkansas Symphony, Iowa Orchestra and more)
+                  </li>
+                  <li>
+                    Violin teacher at Upbeat Music, Chicago; Music City 
+                    Academy, San Francisco; and in my private teaching 
+                    studios
+                  </li>
+                </ul>
+              </li>
+              <li class="resume-item">
+                <span class="resume-item-lead">Library Supervisor,</span> 
+                San Francisco Conservatory of Music, 2016 - 2017
+                <ul class="work-details">
+                  <li>
+                    Supervised student workers and organized their schedules
+                  </li>
+                  <li>
+                    Processed new materials to be added to the library
+                  </li>
+                  <li>
+                    Worked with management software to add new materials to the library’s database
+                  </li>
+                  <li>
+                    Assisted patrons of the library, including students, alumni, and staff
+                  </li>
+                  <li>
+                    Maintained, repaired, and organized the materials of the library
+                  </li>
+                </ul>
+              </li>
+              <li class="resume-item">
+                <span class="resume-item-lead">Student Archival Assistant,</span> 
+                San Francisco Conservatory of Music, 2014 - 2016
+                <ul class="work-details">
+                  <li>
+                    Digitized and edited recordings from the Conservatory’s 
+                    collection of faculty, student, and guest performances 
+                    and lectures
+                  </li>
+                  <li>
+                    Wrote tutorials for a number of undocumented digitizing 
+                    techniques for future student workers
+                  </li>
+                </ul>
+              </li>
+              <li class="resume-item">
+                <span class="resume-item-lead">Development Student Assistant,</span> 
+                San Francisco Conservatory of Music, 2014 - 2015
+                <ul class="work-details">
+                  <li>
+                    Wrote letters to donors and edited student-submitted 
+                    promotional material
+                  </li>
+                </ul>
+              </li>
+              <li class="resume-item">
+                <span class="resume-item-lead">Temporary Seasonal Work:</span> 
+                <ul class="work-details">
+                  <li>
+                    <span class="resume-item-lead">Sales Advisor,</span>
+                    Best Buy, Fargo, 2020 - 2021
+                    <ul class="work-details-add">
+                      Part-time computer-sales position
+                    </ul>
+                  </li>
+                  <li>
+                    <span class="resume-item-lead">Night Printer,</span>
+                    Scherling Photography, Fargo, 2018
+                    <ul class="work-details-add">
+                      Worked with, maintained, and troubleshot printing 
+                      software and hardware
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="./assets/js/bootstrap.bundle.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous">
+    </script>
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>
