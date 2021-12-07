@@ -11184,4 +11184,41 @@ textarea.form-control-lg {
   background: rgba(33, 37, 41, 0.5);
 }
 
+.portfolio {
+  background: #d1ccd2;
+}
+
+.divider {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.divider-line {
+  width: 200px;
+  height: 3px;
+  border-radius: 25px;
+  background-color: #f8f9fa;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.divider-line-dark {
+  width: 200px;
+  height: 3px;
+  border-radius: 25px;
+  background-color: #212529;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.code-icon {
+  color: #f8f9fa;
+}
+
+.code-icon-dark {
+  color: #212529;
+}
+
 /*# sourceMappingURL=style.css.map */
