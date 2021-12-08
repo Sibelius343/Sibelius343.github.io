@@ -11221,4 +11221,17 @@ textarea.form-control-lg {
   color: #212529;
 }
 
+.pic-credit {
+  justify-self: start;
+  font-size: 0.6rem;
+  text-align: start;
+  margin-bottom: 0.5rem;
+}
+
+.pic-credit-sm {
+  font-size: 0.6rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
 /*# sourceMappingURL=style.css.map */
