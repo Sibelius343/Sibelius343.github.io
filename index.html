@@ -153,8 +153,16 @@
               <div class="card-body text-center">
                 <h3 class="card-title mb-3">StudioClass</h3>
                 <p class="card-text">
-                  App to allow musicians to share music they are working on
+                  Platform for musicians to upload music they are working on
                   and receive feedback.
+                  <a
+                    href="#"
+                    data-bs-toggle="modal"
+                    data-bs-target="#studioClassModal"
+                    class="fst-italic"
+                  >
+                    more details...
+                  </a>
                 </p>
                 <div class="project-buttons">
                   <a
@@ -187,6 +195,14 @@
                 <p class="card-text">
                   Created a mobile front end in React Native for rating GitHub 
                   repositories.
+                  <a
+                    href="#"
+                    data-bs-toggle="modal"
+                    data-bs-target="#rateRepositoryModal"
+                    class="fst-italic"
+                  >
+                    more details...
+                  </a>
                 </p>
                 <a
                   target="_blank"
@@ -207,7 +223,17 @@
               <div class="card-body text-center">
                 <h3 class="card-title mb-3">Patientor</h3>
                 <p class="card-text">
-                  Created backend and patient details page for front end.
+                  Typescript app for managing patients and their 
+                  healthcare/hospital entries in the database. Created 
+                  backend and patient details page for frontend.
+                  <a
+                    href="#"
+                    data-bs-toggle="modal"
+                    data-bs-target="#patientorModal"
+                    class="fst-italic"
+                  >
+                    more details...
+                  </a>
                 </p>
                 <a
                   target="_blank"
@@ -231,7 +257,15 @@
                 <h3 class="card-title mb-3">Library</h3>
                 <p class="card-text">
                   Library app that allows users to add books, edit author 
-                  info, and filter by genre. Uses GraphQl.
+                  info, and filter by genre. Uses a GraphQL API.
+                  <a
+                    href="#"
+                    data-bs-toggle="modal"
+                    data-bs-target="#libraryModal"
+                    class="fst-italic"
+                  >
+                    more details...
+                  </a>
                 </p>
                 <a
                   target="_blank"
@@ -253,7 +287,15 @@
                 <h3 class="card-title mb-3">Bloglist</h3>
                 <p class="card-text">
                   App for sharing, commenting on, and liking blogs. State 
-                  management through React Redux.
+                  management through Redux.
+                  <a
+                    href="#"
+                    data-bs-toggle="modal"
+                    data-bs-target="#bloglistModal"
+                    class="fst-italic"
+                  >
+                    more details...
+                  </a>
                 </p>
                 <a
                   target="_blank"
@@ -274,7 +316,16 @@
               <div class="card-body text-center">
                 <h3 class="card-title mb-3">Phonebook</h3>
                 <p class="card-text">
-                  Phonebook app with REST api deployed to Heroku.
+                  Phonebook app that allows for searching, filtering, and 
+                  creating entries. Deployed to Heroku.
+                  <a
+                    href="#"
+                    data-bs-toggle="modal"
+                    data-bs-target="#phonebookModal"
+                    class="fst-italic"
+                  >
+                    more details...
+                  </a>
                 </p>
                 <div class="project-buttons">
                   <a
@@ -546,12 +597,339 @@
       </div>
     </section>
 
-    <script src="./assets/js/bootstrap.bundle.js"></script>
+    <!-- Project Detail Modals -->
+    <!-- Project Detail Modal 0 -->
+
+    <div class="modal fade" id="studioClassModal" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="studioClassModalTitle">
+              StudioClass Details
+            </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="./assets/images/masterclass-thumbnail.png" class="img-fluid rounded mb-4">
+            Platform for musicians to upload music they are working on
+            and receive feedback.
+            <br><br>
+            <span class="techListHead">Technologies Used:</span>
+            <ul>
+              <li>React</li>
+              <li>MUI</li>
+              <li>Apollo Client (GQL)</li>
+              <li>Formik</li>
+              <li>Node.js</li>
+              <li>Apollo Server Express (GQL)</li>
+              <li>Express</li>
+              <li>Google Cloud</li>
+              <li>MongoDB</li>
+              <li>Mongoose (MongoDB)</li>
+              <li>GraphQL</li>
+              <li>Heroku</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <div class="me-auto">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/Sibelius343/studioclass"
+                class="btn btn-primary btn-project"
+              >
+                Code
+              </a>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.studioclass.app"
+                class="btn btn-primary btn-project"
+              >
+                Site
+              </a>
+            </div>
+            <button
+              type="button"
+              class="btn btn-secondary text-light"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project Detail Modal 1 -->
+
+    <div class="modal fade" id="rateRepositoryModal" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="studioClassModalTitle">
+              Rate Repository App Details
+            </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="./assets/images/rate-repository-thumbnail.png" class="img-fluid rounded mb-4">
+            Created a mobile front end in React Native for rating GitHub repositories.
+            <br><br>
+            <span class="techListHead">Technologies Used:</span>
+            <ul>
+              <li>React Native</li>
+              <li>Expo</li>
+              <li>Apollo Client (GQL)</li>
+              <li>Formik</li>
+              <li>GraphQL</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <div class="me-auto">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/Sibelius343/rate-repository-app"
+                class="btn btn-primary btn-project"
+              >
+                Code
+              </a>
+            </div>
+            
+            <button
+              type="button"
+              class="btn btn-secondary text-light"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project Detail Modal 2 -->
+
+    <div class="modal fade" id="patientorModal" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="studioClassModalTitle">
+              Patientor Details
+            </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="./assets/images/patientor-thumbnail.png" class="img-fluid rounded mb-4">
+            Typescript app for managing patients and their 
+            healthcare/hospital entries in the database. Created backend and 
+            patient details page for frontend.
+            <br><br>
+            <span class="techListHead">Technologies Used:</span>
+            <ul>
+              <li>Typescript</li>
+              <li>React</li>
+              <li>Semantic UI</li>
+              <li>Axios</li>
+              <li>Formik</li>
+              <li>Node.js</li>
+              <li>Express</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <div class="me-auto">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/Sibelius343/FullstackOpen/tree/main/part9"
+                class="btn btn-primary btn-project"
+              >
+                Code
+              </a>
+            </div>
+            
+            <button
+              type="button"
+              class="btn btn-secondary text-light"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project Detail Modal 3 -->
+
+    <div class="modal fade" id="libraryModal" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="studioClassModalTitle">
+              Library Details
+            </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="./assets/images/library-thumbnail.png" class="img-fluid rounded mb-4">
+            Library app that allows users to add books, edit author info, 
+            and filter by genre. Uses a GraphQL API.
+            <br><br>
+            <span class="techListHead">Technologies Used:</span>
+            <ul>
+              <li>React</li>
+              <li>Apollo Client (GQL)</li>
+              <li>Node.js</li>
+              <li>Apollo Server Express (GQL)</li>
+              <li>Express</li>
+              <li>MongoDB</li>
+              <li>Mongoose (MongoDB)</li>
+              <li>GraphQL</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <div class="me-auto">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/Sibelius343/FullstackOpen/tree/main/part8"
+                class="btn btn-primary btn-project"
+              >
+                Code
+              </a>
+            </div>
+            
+            <button
+              type="button"
+              class="btn btn-secondary text-light"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project Detail Modal 4 -->
+
+    <div class="modal fade" id="bloglistModal" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="studioClassModalTitle">
+              Library Details
+            </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="./assets/images/bloglist-thumbnail.png" class="img-fluid rounded mb-4">
+            App for sharing, commenting on, and liking blogs. State 
+            management through Redux.
+            <br><br>
+            <span class="techListHead">Technologies Used:</span>
+            <ul>
+              <li>React</li>
+              <li>Redux</li>
+              <li>Material UI</li>
+              <li>Axios</li>
+              <li>Node.js</li>
+              <li>Express</li>
+              <li>MongoDB</li>
+              <li>Mongoose (MongoDB)</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <div class="me-auto">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/Sibelius343/FullstackOpen/tree/main/part7"
+                class="btn btn-primary btn-project"
+              >
+                Code
+              </a>
+            </div>
+            
+            <button
+              type="button"
+              class="btn btn-secondary text-light"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project Detail Modal 5 -->
+
+    <div class="modal fade" id="phonebookModal" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="studioClassModalTitle">
+              Phonebook Details
+            </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="./assets/images/phonebook-thumbnail.png" class="img-fluid rounded mb-4">
+            Phonebook app that allows for searching, filtering, and creating
+            entries. Deployed to Heroku.
+            <br><br>
+            <span class="techListHead">Technologies Used:</span>
+            <ul>
+              <li>React</li>
+              <li>Axios</li>
+              <li>Node.js</li>
+              <li>Express</li>
+              <li>MongoDB</li>
+              <li>Mongoose (MongoDB)</li>
+              <li>Heroku</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <div class="me-auto">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/Sibelius343/FullstackOpen/tree/main/part3"
+                class="btn btn-primary btn-project"
+              >
+                Code
+              </a>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://fierce-tor-86707.herokuapp.com/"
+                class="btn btn-primary btn-project"
+              >
+                Site
+              </a>
+            </div>
+            
+            <button
+              type="button"
+              class="btn btn-secondary text-light"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <script
       src="https://code.jquery.com/jquery-3.6.0.min.js"
       integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
       crossorigin="anonymous">
     </script>
+    <script src="./assets/js/bootstrap.bundle.js"></script>
     <script src="./scripts/script.js"></script>
   </body>
 </html>
