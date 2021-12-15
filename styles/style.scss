@@ -1,0 +1,155 @@
+@use 'custom' as *;
+
+.link {
+  color: $light;
+}
+
+.body {
+  padding-top: 135px;
+}
+
+.social-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  padding-top: 10px;
+}
+
+.btn.btn-social {
+  border-radius: 25%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+
+.btn.btn-project {
+  width: 100px;
+}
+
+.resume-item-lead {
+  font-weight: bold;
+}
+
+.resume-item {
+  text-align: start;
+}
+
+.course-link {
+  display: inline-block;
+  font-weight: bold;
+}
+
+.work-details {
+  list-style: square;
+  text-align: start;
+}
+
+.work-details-add {
+  list-style: circle;
+  text-align: start;
+}
+
+.masthead {
+  background: url('../assets/images/japan-park.jpg') center center;
+}
+
+.masthead-text {
+  background: linear-gradient(to right, rgb(33, 37, 41, 0.75), rgb(33, 37, 41, 0.70) 65%, rgb(0, 0, 0, 0.25) 85%, rgb(0, 0, 0, 0));
+  max-width: 75%;
+  position: relative;
+}
+
+.masthead-text-sm {
+  background: rgb(33, 37, 41, 0.5);
+  position: relative;
+}
+
+.masthead-container {
+  display: flex;
+  gap: 1em;
+}
+
+.portfolio {
+  background: $tertiary;
+}
+
+.divider {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.divider-line {
+  width: 200px;
+  height: 3px;
+  border-radius: 25px;
+  background-color: $light;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.divider-line-dark {
+  width: 200px;
+  height: 3px;
+  border-radius: 25px;
+  background-color: $dark;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.code-icon {
+  color: $light;
+}
+
+.code-icon-dark {
+  color: $dark;
+}
+
+.pic-credit {
+  font-size: $font-size-xs;
+  margin-bottom: 0.5rem;
+  position: absolute;
+  bottom: 0
+}
+
+.pic-credit-sm {
+  font-size: $font-size-xs;
+  margin-bottom: 0.5rem;  
+}
+
+.techListHead {
+  font-weight: bold;
+}
+
+.masthead-text-content {
+  max-width: 40%;
+}
+
+.masthead-text-content>span {
+  color: #e6d00d;
+  font-weight: 500;
+}
+
+.masthead-text-content-sm {
+  max-width: 100%;
+}
+
+.masthead-text-content-sm>span {
+  color: #e6d00d;
+  font-weight: 500;
+}
+
+.profile-pic {
+  width: 25vw;
+  height: 25vw;
+}
